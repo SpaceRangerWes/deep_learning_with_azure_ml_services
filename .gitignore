@@ -4,6 +4,7 @@
 *azureml-logs
 *.dprep.user
 *.vscode/settings.json
+aml_config/*.runconfig
 
 # Python Content
 *__pycache__
