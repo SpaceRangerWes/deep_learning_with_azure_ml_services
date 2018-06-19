@@ -1,0 +1,17 @@
+# VS Code and Azure ML
+*.vs/slnx.sqlite
+*.azuremlhistory_git
+*azureml-logs
+*.dprep.user
+*.vscode/settings.json
+aml_config/*.runconfig
+
+# Python Content
+*__pycache__
+*.ipynb_checkpoints
+
+# MacOS
+*.DS_Store
+
+# Custom
+temp/

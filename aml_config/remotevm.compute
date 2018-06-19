@@ -1,0 +1,8 @@
+address: <dsvm_name>.<region>.cloudapp.azure.com
+baseDockerImage: 'microsoft/mmlspark:plus-0.10.9'
+nativeSharedDirectory: ~/.azureml/share/
+sharedVolumes: true
+type: remotedocker
+userManagedEnvironment: false
+username: <username>
+password: <use_azure_ml_secrets>
