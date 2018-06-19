@@ -1,0 +1,13 @@
+ArgumentVector:
+    - $file
+CondaDependenciesFile: aml_config/conda_dependencies.yml
+EnvironmentVariables:
+    ACCOUNT_NAME: <storage_account_goes_here>
+    ACCOUNT_KEY: <account_key_goes_here>
+    CONTAINER_NAME: amazon-from-space-data
+Framework: Python
+PrepareEnvironment: false
+SparkDependenciesFile: aml_config/spark_dependencies.yml
+Target: remotevm
+TrackedRun: true
+UseSampling: true
